@@ -8,15 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   registerMode=false;
- 
+
   constructor( private http:HttpClient) { }
 
   ngOnInit() {
 
   }
-
-
-
 
 registerToggle(){
   this.registerMode=true;
